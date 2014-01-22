@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'Mixpanel/**/*.{m,h}'
   s.private_header_files =  'Mixpanel/Library/**/*.h'
   s.resources 	 = ["Mixpanel/**/*.{png,storyboard}"]
-  s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'AdSupport', 'Accelerate', 'CoreGraphics', 'QuartzCore'
+  s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'Accelerate', 'CoreGraphics', 'QuartzCore'
   s.requires_arc = false
 end
