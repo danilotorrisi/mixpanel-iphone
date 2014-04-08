@@ -6,10 +6,11 @@ Pod::Spec.new do |s|
   s.license      = 'Apache License, Version 2.0'
   s.author       = { "Mixpanel, Inc" => "support@mixpanel.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/mixpanel/mixpanel-iphone.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/sgtbash/mixpanel-iphone.git", :tag => "v#{s.version}" }
   s.source_files  = 'Mixpanel/**/*.{m,h}'
   s.private_header_files =  'Mixpanel/Library/**/*.h'
   s.resources 	 = ["Mixpanel/**/*.{png,storyboard}"]
   s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'Accelerate', 'CoreGraphics', 'QuartzCore'
   s.requires_arc = true
+  s.ios.deployment_target = '7.0'
 end
